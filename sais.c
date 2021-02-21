@@ -40,7 +40,7 @@ int main(int argc, char **argv) {
 	float kib = bytes / 1024;
 	float mib = kib / 1024;
 	float gib = mib / 1024;
-	printf("Total size (bytes):%llu Total size (KiB):%f Total size (MiB):%f Total size (GiB):%f \n", bytes, kib, mib, gib);
+	printf("Total size: \nBytes:%llu \nKiB:%f \nMiB:%f \nGiB:%f \n", bytes, kib, mib, gib);
 	if (accurate == false) {
 		printf("Some files are missing. The size is not accuarte!\n");	
 	}
